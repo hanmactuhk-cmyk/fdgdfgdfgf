@@ -26,7 +26,11 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --noconfirm --clean --windowed --name G-Labs-Flow-Video --collect-all PySide6 desktop/main.py
+          pyinstaller --noconfirm --clean --windowed --onefile --name G-Labs-Flow-Video desktop/main.py
+
+      - name: Check generated files
+        run: |
+          dir dist
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
