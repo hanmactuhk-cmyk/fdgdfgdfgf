@@ -1,0 +1,14 @@
+{
+  "model": "veo_31_lite",
+  "aspect_ratio": "9:16",
+  "jobs": [
+    {
+      "prompt": "Một cảnh điện ảnh dọc 9:16, nhân vật bước chậm trong rừng.",
+      "name": "Task 001"
+    },
+    {
+      "prompt": "Cận cảnh nhân vật nhìn về phía máy quay, chuyển động tự nhiên.",
+      "name": "Task 002"
+    }
+  ]
+}
